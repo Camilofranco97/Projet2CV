@@ -7,8 +7,9 @@ body{
 	border: 1px solid black;
 }
 
-.{
-
+.titre img{
+	width: 70px
+	height: auto;
 }
 
 .entete{
@@ -78,7 +79,7 @@ body{
 	height: auto;
 	
 }
-.fitness{
+.haltere{
 	width: 70px;
 	height: auto;
 	
