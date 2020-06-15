@@ -1,5 +1,6 @@
 body{
 	display: flex;
+	flex-direction: row-reverse;
 	font-family: sans-serif;
 	width:827px;
 	height:1170;
