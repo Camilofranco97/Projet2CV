@@ -2,11 +2,11 @@ body{
 	display: flex;
 	flex-direction: row-reverse;
 	font-family: sans-serif;
-	width:827px;
-	height:1170;
+	width:900px;
 	margin: auto;
 	border: 1px solid black;
 }
+
 
 .titre img{
 	width: 70px
