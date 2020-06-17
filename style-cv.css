@@ -2,8 +2,6 @@ body{
 	display: flex;
 	flex-direction: row-reverse;
 	font-family: sans-serif;
-	width:900px;
-	margin: auto;
 }
 
 
@@ -92,12 +90,7 @@ section{
 	
 }
 
-.aligner{
-    padding-bottom: 30px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-alig: center;
+
 }
 section header{
 	display: row;
