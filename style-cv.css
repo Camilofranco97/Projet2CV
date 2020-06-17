@@ -5,7 +5,9 @@ body{
 }
 #yellow-block {
 	background-color: rgb(254, 202, 7);
+	width: 25%;
 	padding: 10px 10px 10px 10px;
+
 }
 #profile-picture {
 	width: 250px;
@@ -20,6 +22,7 @@ body{
 	justify-content: center;
 	color: rgb(218, 175, 18);
 	width: 100%
+	padding: 0px;
 }
 .saut-de-ligne {
 	padding-bottom:10px;
