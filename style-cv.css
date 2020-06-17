@@ -6,8 +6,6 @@ body{
 #yellow-block {
 	background-color: rgb(254, 202, 7);
 	width: 25%;
-	padding: 10px 10px 10px 10px;
-
 }
 #profile-picture {
 	width: 250px;
@@ -32,4 +30,10 @@ body{
 }
 #image-loisir {
 	display: flex;
+}
+.container{
+	padding: 20px 20px 20px 20px
+}
+.saut-de-ligne{
+	margin:0px;
 }
