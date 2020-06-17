@@ -5,6 +5,7 @@ body{
 }
 #yellow-block {
 	display: flex;
+	flex-direction: column;
 	background-color: rgb(254, 202, 7);
 	width: 25%;
 	justify-content: space-between;
