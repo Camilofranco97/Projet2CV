@@ -7,20 +7,25 @@ body{
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(254, 202, 7);
-	width: 25%;
-	justify-content: space-between;
+	width: 25%;	
+
 }
+
 #profile-picture {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 	width: 250px;
 	height: 250px;
 	border-radius: 100%;
-	border: 1px solid rgb(218, 175, 18);
-	align-items:center;
-	justify-content:center;
-}
+	padding-top: 47px;
+	padding-bottom: 47px;
+} 
+
 #yellow-block h2 {
+	display: flex;
 	background-color: rgb(64, 64, 64);
-	border: 1px solid rgb(64, 64, 64);
+	border: 2px solid rgb(64, 64, 64);
 	align-items: center;
 	justify-content: center;
 	color: rgb(218, 175, 18);
@@ -28,8 +33,15 @@ body{
 	padding: 0px;
 	text-align: center;
 }
+
 .saut-de-ligne {
-	padding-bottom:10px;
+	line-height: 5px;
+	padding-bottom: 15px;
+}
+#contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 #a-propos-de-moi {
 	text-align: justify;
@@ -38,12 +50,10 @@ body{
 	display: flex;
 }
 .container{
-	padding-top: 47px;
+	padding-top: 37px;
 	padding-right: 47px;
 	padding-bottom:47px;
 	padding-left: 47px;
-}
-#loisir{
-	display: flex;
-	align-items: flex-end;
+	margin-bottom: 10px;
+	font-size: 25px;
 }
