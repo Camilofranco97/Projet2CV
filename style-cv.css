@@ -25,7 +25,7 @@ body{
 #yellow-block h2 {
 	display: flex;
 	background-color: rgb(64, 64, 64);
-	border: 2px solid rgb(64, 64, 64);
+	border: 3px solid rgb(64, 64, 64);
 	align-items: center;
 	justify-content: center;
 	color: rgb(218, 175, 18);
