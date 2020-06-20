@@ -88,10 +88,16 @@ header p {
 	border-bottom: 1px solid rgb(254, 202, 7);
 
 }
-#openclassrooms {
+#block-formation{
+	display: flex;
+	flex-direction: column;
+}
+.titre{
+	display: flex;
+
+}
+.block {
 	display: flex;
 	align-items: flex-start;
-	justify-content: space-between;
-	
 
 }
