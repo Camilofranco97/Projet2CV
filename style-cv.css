@@ -2,7 +2,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	font-family: sans-serif;
-	width: 100%;
+	width: 2500px;
 
 }
 
@@ -12,7 +12,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(254, 202, 7);
-	width: 20%;	
+	width: 25%;	
+
 
 }
 
@@ -20,46 +21,45 @@ body{
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 250px;
-	height: 250px;
+	width: 300px;
+	height: 300px;
 	border-radius: 100%;
-	padding-top: 47px;
-	padding-bottom: 47px;
+	padding-top: 80px;
+	padding-bottom: 60px;
 } 
 
 #yellow-block h2 {
 	display: flex;
 	background-color: rgb(64, 64, 64);
-	border: 3px solid rgb(64, 64, 64);
+	border-top: 5px solid rgb(64, 64, 64);
+	border-bottom: 5px solid rgb(64, 64, 64);
 	align-items: center;
 	justify-content: center;
 	color: rgb(218, 175, 18);
-	width: 100%
+	width: 100%;
 	padding: 0px;
 	text-align: center;
-
+	font-size: 35px;
 }
 
 .saut-de-ligne {
 	line-height: 5px;
 	padding-bottom: 15px;
 }
-#contact{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
+
 #a-propos-de-moi {
 	text-align: justify;
+	font-size: 25px;
+	word-spacing: 3px;
 }
 #image-loisir {
 	display: flex;
 }
 .container{
 	padding-top: 37px;
-	padding-right: 47px;
+	padding-right: 55px;
 	padding-bottom:47px;
-	padding-left: 47px;
+	padding-left: 55px;
 	margin-bottom: 10px;
 	font-size: 25px;
 }
@@ -68,17 +68,18 @@ body{
 
 #white-block{
 	width: 75%;
-	margin-left: 60px;
+	margin-left: 80px;
 }
-#header div{
-	line-height:2px;
+#header{
+	margin: 170px 100px 170px 0px;
+	line-height: 1px;
 	}
 
 h1 {
-font-size: 45px;
+font-size: 70px;
 }
 header p {
-	font-size: 30px;
+	font-size: 40px;
 }
 
 #camilo {
@@ -94,10 +95,43 @@ header p {
 }
 .titre{
 	display: flex;
+	line-height: 1px;
+	border-bottom: 2px solid rgb(254, 202, 7);
+	font-size: 25px;
 
 }
 .block {
 	display: flex;
 	align-items: flex-start;
-
+	font-size:25px;
+	padding-bottom: 30px;
+	
+}
+.left{
+	padding-top: 30px;
+	line-height: 2px;
+	align-items: flex-start;
+	width: 25%;
+}
+.rigth{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	line-height: 4px;
+	width: 75%;
+}
+.date{
+	font-weight: bold;
+}
+#max{
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	width: 100%;
+}
+#left-side{
+	width: 50%;
+}
+#rigth-side{
+	width: 50%;
 }
