@@ -268,7 +268,7 @@ div .name
 	#yellow-block
 	{
 		width: 100%;
-		height: 1000px;
+		height: 850px;
 		display: flex;
 		flex-direction: column;
 	}
