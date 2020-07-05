@@ -242,17 +242,14 @@ div .name
 	#yellow-block
 	{
 		width: 100%;
+		height: 1000px;
 		display: flex;
 		flex-direction: column;
 	}
 
-	#loisir
-	{
-		position: none;
-	}
 	#white-block
 	{
-		width: 90%;
+		width: 95%;
 		word-break: break-word;
 		margin: 0 auto; 
 	}
