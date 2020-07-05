@@ -244,8 +244,6 @@ div .name
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
-		position: none;
 	}
 
 	#loisir
@@ -257,5 +255,6 @@ div .name
 		width: 100%;
 		padding: 0px 5px 0px 5px;
 		word-break: break-word;
+		margin: 0px; 
 	}
 }
