@@ -236,16 +236,16 @@ div .name
 	{
 		display: flex;
 		flex-direction: column;
-		margin: 0px 8px 0px 8px;
+		margin: 0px;
 	}
 
 	#yellow-block
 	{
 		width: 100%;
-		height: auto;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		position: none;
 	}
 
 	#loisir
@@ -255,7 +255,7 @@ div .name
 	#white-block
 	{
 		width: 100%;
-		margin: 0px;
+		padding: 0px 5px 0px 5px;
 		word-break: break-word;
 	}
 }
