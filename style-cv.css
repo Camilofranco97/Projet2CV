@@ -193,7 +193,7 @@ header p
 {
 	margin-top: 10px;
 }
-div strong
+div .name
 {
 	margin: 0px;
 }
@@ -236,6 +236,7 @@ div strong
 	{
 		display: flex;
 		flex-direction: column;
+		margin: 0px 8px 0px 8px;
 	}
 
 	#yellow-block
@@ -249,7 +250,7 @@ div strong
 
 	#loisir
 	{
-		display: none;
+		position: none;
 	}
 	#white-block
 	{
