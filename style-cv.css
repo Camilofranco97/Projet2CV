@@ -175,7 +175,7 @@ header p
 	width: 60%;
 	margin-top: 30px
 }
-.rigth p
+.rigth div
 {
 	margin-top: 10px;
 }
@@ -212,9 +212,11 @@ header p
 	#yellow-block
 	{
 		width: 100%;
+		height: auto;
 	}
 	#white-block
 	{
 		width: 100%;
+		word-break: break-word;
 	}
 }
