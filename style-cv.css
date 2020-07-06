@@ -293,4 +293,16 @@ div .name
 		word-break: break-word;
 		margin: 0 auto; 
 	}
+
+	.fa-circle:before
+	{
+	color: rgb(254, 202, 7);
+	font-size: 10px;
+	}
+
+	.fa-dot-circle:before
+	{
+	color: rgb(254, 202, 7);
+	font-size: 15px;
+	}
 }
