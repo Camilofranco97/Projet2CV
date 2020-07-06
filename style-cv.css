@@ -99,18 +99,16 @@ p
 {
 	display: flex;
 	width: 80%;
+	margin: auto;
 	align-items: center;
 	justify-content: space-around; 
-    font-size: 40px;
+    font-size: 45px;
 }
 
 #loisir i 
 {
 	font-size: 20px;
 	color: rgb(64, 64, 64);
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .container
