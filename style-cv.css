@@ -115,6 +115,7 @@ p
 {
 	width: 80%;
 	margin: 0 auto;
+	color: rgb(64, 64, 64);
 }
 
 /*Partie droite */
@@ -138,8 +139,8 @@ p
 header
 {
 	margin: 70px 0px 70px 0px;
-
 }
+
 #header-white
 {
 	margin-top: 0px;
@@ -155,6 +156,7 @@ h1
 header p
 {
 	font-size: 25px;
+	color: rgb(64, 64, 64);
 }
 
 #camilo
@@ -194,11 +196,17 @@ header p
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	color: rgb(64, 64, 64);
 }
 
 .block i
 {
 	color: rgb(254, 202, 7);
+	font-size: 20px;
+}
+
+.first
+{
 	font-size: 25px;
 }
 
@@ -269,9 +277,13 @@ div .name
 	#yellow-block
 	{
 		width: 100%;
-		height: 1000px;
 		display: flex;
 		flex-direction: column;
+	}
+
+	#loisir
+	{
+		position: relative;
 	}
 
 	#white-block
