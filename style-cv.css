@@ -199,14 +199,15 @@ header p
 	color: rgb(64, 64, 64);
 }
 
-.block i
+.fa-circle:before
 {
 	color: rgb(254, 202, 7);
-	font-size: 20px;
+	font-size: 15px;
 }
 
-.first
+.fa-dot-circle:before
 {
+	color: rgb(254, 202, 7);
 	font-size: 25px;
 }
 
